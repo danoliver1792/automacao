@@ -18,5 +18,5 @@ sleep(4)
 browser.find_element(By.NAME, 'q').send_keys(Keys.RETURN)
 sleep(4)
 
-valueDollar = browser.find_element(By.XPATH, '//*[@id="knowledge-currency__updatable-data-column"]/div[1]/div[2]/span[1]')[0].text
+valueDollar = browser.find_element(By.XPATH, '//*[@id="knowledge-currency__updatable-data-column"]/div[1]/div[2]/span[1]').text
 print(valueDollar)
